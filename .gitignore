@@ -18,6 +18,7 @@
 # files if adding them here.
 !/AcerolaJam0/Content/**/*.uasset
 !/AcerolaJam0/Content/**/*.umap
+!/AcerolaJam0/Content/**
 
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
@@ -49,3 +50,6 @@ Session.vim
 
 # Visual Studio
 .vs
+
+# Custom
+!*.blend
