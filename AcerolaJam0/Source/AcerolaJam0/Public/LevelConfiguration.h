@@ -14,9 +14,17 @@ class ACEROLAJAM0_API ULevelConfiguration : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 		UFUNCTION(BlueprintCallable, Category="LevelConfiguration")
-		static void loadConfiguration(FString fileLocation, int32& playerHealth, int& playerDamages, double& ennemySize, bool& spawnBoars, bool& spawnArchers, bool& spawnMedusa, bool& spawnTrees, bool& spawnMandrake, bool& plantsEverywhere);
+		static void loadConfiguration(FString fileLocation, int& level, int& playerHealth, int& playerDamages, bool& playerIllness, double& ennemySize, int& ennemyDamageFactor, bool& ennemyGlitchedTexture, bool& spawnBoars, bool& spawnArchers, bool& spawnMedusa, bool& spawnTrees, bool& spawnMandrake, bool& nuclearTrees);
+		
+		UFUNCTION(BlueprintCallable, Category = "LevelConfiguration")
 		static void writeConfigurationFileLevel1(FString fileLocation);
+
+		UFUNCTION(BlueprintCallable, Category = "LevelConfiguration")
 		static void writeConfigurationFileLevel2(FString fileLocation);
+
+		UFUNCTION(BlueprintCallable, Category = "LevelConfiguration")
 		static void writeConfigurationFileLevel3(FString fileLocation);
+
+		UFUNCTION(BlueprintCallable, Category = "LevelConfiguration")
 		static void writeConfigurationFileLevel4(FString fileLocation);
 };
