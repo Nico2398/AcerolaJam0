@@ -146,7 +146,7 @@ nuclearTrees = false\n\
 # Enabling these features is at your own risks.\n\
 \n\
 ennemiesDoping = false # increase ennemy damages and change ennemy animations.May create texture issues.\n\
-playerIllness = false # little joke from the developper, which makes the game basically impossible.Must be false.\n\
+playerIllness = false # little joke from the developper, which makes the game basically impossible. Must be false.\n\
 ";
 	FFileHelper::SaveStringToFile(str, *fileLocation);
 }
@@ -175,7 +175,7 @@ nuclearTrees = false\n\
 # Enabling these features is at your own risks.\n\
 \n\
 ennemiesDoping = false # increase ennemy damages and change ennemy animations.May create texture issues.\n\
-playerIllness = false # little joke from the developper, which makes the game basically impossible.Must be false.\n\
+playerIllness = false # little joke from the developper, which makes the game basically impossible. Must be false.\n\
 ";
 	FFileHelper::SaveStringToFile(str, *fileLocation);
 }
@@ -204,7 +204,7 @@ nuclearTrees = true\n\
 # Enabling these features is at your own risks.\n\
 \n\
 ennemiesDoping = true # increase ennemy damages and change ennemy animations.May create texture issues.\n\
-playerIllness = false # little joke from the developper, which makes the game basically impossible.Must be false.\n\
+playerIllness = false # little joke from the developper, which makes the game basically impossible. Must be false.\n\
 ";
 	FFileHelper::SaveStringToFile(str, *fileLocation);
 }
@@ -233,7 +233,7 @@ nuclearTrees = true\n\
 # Enabling these features is at your own risks.\n\
 \n\
 ennemiesDoping = true # increase ennemy damages and change ennemy animations.May create texture issues.\n\
-playerIllness = true # little joke from the developper, which makes the game basically impossible.Must be false.\n\
+playerIllness = true # little joke from the developper, which makes the game basically impossible. Must be false.\n\
 ";
 	FFileHelper::SaveStringToFile(str, *fileLocation);
 }
