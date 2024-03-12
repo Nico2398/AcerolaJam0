@@ -137,7 +137,7 @@ spawnBoars = true\n\
 spawnArchers = true\n\
 spawnMedusa = true\n\
 spawnTrees = false\n\
-spawnMandrake = false\n\
+spawnMandrake = false # not implemented\n\
 nuclearTrees = false\n\
 \n\
 [experimental]\n\
@@ -145,7 +145,7 @@ nuclearTrees = false\n\
 # PLEASE LEAVE THEM TO 'false'.\n\
 # Enabling these features is at your own risks.\n\
 \n\
-ennemiesDoping = false # increase ennemy damages and change ennemy animations.May create texture issues.\n\
+ennemiesDoping = false # increase ennemy damages. Untested feature. Must be false.\n\
 playerIllness = false # little joke from the developper, which makes the game basically impossible. Must be false.\n\
 ";
 	FFileHelper::SaveStringToFile(str, *fileLocation);
@@ -166,7 +166,7 @@ spawnBoars = true\n\
 spawnArchers = true\n\
 spawnMedusa = true\n\
 spawnTrees = true\n\
-spawnMandrake = true\n\
+spawnMandrake = true # not implemented\n\
 nuclearTrees = false\n\
 \n\
 [experimental]\n\
@@ -174,7 +174,7 @@ nuclearTrees = false\n\
 # PLEASE LEAVE THEM TO 'false'.\n\
 # Enabling these features is at your own risks.\n\
 \n\
-ennemiesDoping = false # increase ennemy damages and change ennemy animations.May create texture issues.\n\
+ennemiesDoping = false # increase ennemy damages. Untested feature. Must be false.\n\
 playerIllness = false # little joke from the developper, which makes the game basically impossible. Must be false.\n\
 ";
 	FFileHelper::SaveStringToFile(str, *fileLocation);
@@ -195,7 +195,7 @@ spawnBoars = true\n\
 spawnArchers = true\n\
 spawnMedusa = true\n\
 spawnTrees = true\n\
-spawnMandrake = true\n\
+spawnMandrake = true # not implemented\n\
 nuclearTrees = true\n\
 \n\
 [experimental]\n\
@@ -203,7 +203,7 @@ nuclearTrees = true\n\
 # PLEASE LEAVE THEM TO 'false'.\n\
 # Enabling these features is at your own risks.\n\
 \n\
-ennemiesDoping = true # increase ennemy damages and change ennemy animations.May create texture issues.\n\
+ennemiesDoping = true # increase ennemy damages. Untested feature. Must be false.\n\
 playerIllness = false # little joke from the developper, which makes the game basically impossible. Must be false.\n\
 ";
 	FFileHelper::SaveStringToFile(str, *fileLocation);
@@ -216,7 +216,7 @@ void ULevelConfiguration::writeConfigurationFileLevel4(FString fileLocation)
 level = 4 # always between 1 and 4\n\
 \n\
 [player]\n\
-playerHealth = 2\n\
+playerHealth = 3\n\
 playerDamages = -999\n\
 \n\
 [ennemies]\n\
@@ -224,7 +224,7 @@ spawnBoars = true\n\
 spawnArchers = true\n\
 spawnMedusa = true\n\
 spawnTrees = true\n\
-spawnMandrake = true\n\
+spawnMandrake = true # not implemented\n\
 nuclearTrees = true\n\
 \n\
 [experimental]\n\
@@ -232,7 +232,7 @@ nuclearTrees = true\n\
 # PLEASE LEAVE THEM TO 'false'.\n\
 # Enabling these features is at your own risks.\n\
 \n\
-ennemiesDoping = true # increase ennemy damages and change ennemy animations.May create texture issues.\n\
+ennemiesDoping = true # increase ennemy damages. Untested feature. Must be false.\n\
 playerIllness = true # little joke from the developper, which makes the game basically impossible. Must be false.\n\
 ";
 	FFileHelper::SaveStringToFile(str, *fileLocation);

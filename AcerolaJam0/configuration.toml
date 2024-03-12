@@ -1,22 +1,22 @@
 [level]
-level = 1 # always between 1 and 4
+level = 4 # always between 1 and 4
 
 [player]
-playerHealth = 6
-playerDamages = 4
+playerHealth = 3
+playerDamages = -999
 
 [ennemies]
 spawnBoars = true
 spawnArchers = true
 spawnMedusa = true
-spawnTrees = false
-spawnMandrake = false
-nuclearTrees = false
+spawnTrees = true
+spawnMandrake = true
+nuclearTrees = true
 
 [experimental]
 # The following features have not been tested and may be subject to bugs.
 # PLEASE LEAVE THEM TO 'false'.
 # Enabling these features is at your own risks.
 
-ennemiesDoping = false # increase ennemy damages and change ennemy animations.May create texture issues.
-playerIllness = false # little joke from the developper, which makes the game basically impossible. Must be false.
+ennemiesDoping = true # increase ennemy damages. Untested feature. Must be false.
+playerIllness = true # little joke from the developper, which makes the game basically impossible. Must be false.
